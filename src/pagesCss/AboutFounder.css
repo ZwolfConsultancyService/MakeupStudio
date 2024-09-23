@@ -1,0 +1,51 @@
+
+
+.dance-instructor-section {
+
+    color: white;
+    
+  }
+  
+  .custom-heading {
+    font-family: 'serif';
+    margin: 0;
+  }
+  
+  .custom-paragraph {
+    font-size: 0.9rem;
+     
+  }
+  .text-column {
+    
+    text-align: justify;
+}
+  
+ 
+ 
+  .img-fluid {
+    width: 70%;
+    height: 350px;
+   /* margin-right: 80px; */
+
+}
+
+@media (max-width: 1024px) {
+  .text-column{
+    font-size: 1rem;
+    text-align: justify;
+  }
+}
+@media (max-width: 480px) {
+  .text-column {
+    font-size: 1rem;
+    text-align: justify;
+    max-height: 350px;
+}
+.img-fluid {
+  width: 80%;
+  height: 300px;
+  margin-top: 20px;
+ 
+}
+}
+

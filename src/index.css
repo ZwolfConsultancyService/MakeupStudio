@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S&display=swap');
+
+.bgcolor{
+    background-color: #E5CDB9;
+  }
+  .fonts{
+    font-size: 40px;
+  }
+  .texts{
+    color: #64493c;
+  }
+.font{
+  font-size: 20px;
+  font-weight: bold;
+}
+ 
+
+/*Services*/
+
+/*About Founder*/
+
+.h3fonts{
+  font-family: 'Playwrite GB S', cursive;
+    font-size: 1.5rem;
+    font-weight: bold;
+}

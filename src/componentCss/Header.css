@@ -1,0 +1,149 @@
+.nav-main {
+  background: transparent;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+  color: white !important;
+}
+
+
+.nav-main.scrolled {
+  background-color: #64493c;
+  color: white;
+}
+
+.nav-main .navbar-brand span {
+  transition: transform 0.3s, color 0.3s;
+  margin-left: -10px;
+  color: white !important;
+}
+
+.nav-main .navbar-brand img {
+  transition: transform 0.3s, color 0.3s;
+}
+
+.navbar-toggler {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.navbar-toggler-custom {
+  border-color: transparent;
+}
+
+.navbar-toggler-custom .navbar-toggler-icon {
+  display: none;
+}
+
+.navbar-toggler-custom:focus,
+.navbar-toggler-custom:hover,
+.nav-main.scrolled .navbar-toggler-custom {
+  color: white;
+}
+
+.nav-main.scrolled,
+.nav-main.expanded {
+  background-color: #64493c;
+  color: white;
+}
+
+.nav-items {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.nav-items .nav-link {
+  color: white !important;
+  transition: color 0.3s;
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.nav-items .nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3.5px;
+  background-color: white;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s;
+}
+
+.nav-items .nav-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.nav-items .nav-link:hover {
+  color: #f7d8bd !important;
+  font-weight: 700;
+}
+
+/* Media query for 320px width */
+
+@media (max-width: 360px) {
+  .navbar-brand span {
+    font-size: 16px;
+  }
+
+  .navbar-brand img {
+    width: 30px;
+    height: 30px;
+  }
+  .logoH{
+    font-size:14px !important;
+  }
+  .navbar-toggler {
+    font-size: 20px;
+  }
+
+  .navbar-toggler-custom {
+    font-size: 20px;
+  }
+  
+  .nav-items {
+    font-size: 15px;
+  }
+
+  .nav-items .nav-link {
+    padding-bottom: 5px;
+  }
+  
+  .navbar-collapse {
+    display: block;
+    padding-top: 5px;
+  }
+  
+  .container-fluid.ms-3 {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .nav-main .navbar-brand span,
+  .nav-main .navbar-brand img,
+  .navbar-toggler {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1;
+  }
+  
+  .navbar-toggler-custom {
+    font-size: 20px;
+    padding: 0;
+    width: auto;
+  }
+
+  .navbar-toggler-custom svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (min-width: 3px){
+  .logoH{
+    font-size:14px !important;
+  }
+}

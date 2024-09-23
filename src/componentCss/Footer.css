@@ -1,0 +1,15 @@
+.icon-hover {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .icon-hover:hover {
+    transform: translateY(-5px);
+  }
+  
+  .logo-head{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .bgColor{
+    background-color: #64493c;
+  }

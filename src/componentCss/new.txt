@@ -1,0 +1,69 @@
+.main-li:hover {
+  border-bottom: 3.5px solid #fff;
+  color: #ffa500 !important;
+  font-weight: 700;
+}
+
+.nav-main {
+  background: transparent;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+  color: white !important; 
+}
+
+.nav-main.scrolled {
+  background-color: #64493c; 
+  color: white; 
+}
+
+.nav-main .navbar-brand span {
+  transition: transform 0.3s, color 0.3s;
+  margin-left: -10px;
+  color: white !important; 
+}
+
+.nav-main .navbar-brand img {
+  transition: transform 0.3s, color 0.3s;
+}
+
+.navbar-toggler {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.navbar-toggler-custom {
+  border-color: transparent;
+}
+
+.navbar-toggler-custom .navbar-toggler-icon {
+  display: none;
+}
+
+.navbar-toggler-custom:focus,
+.navbar-toggler-custom:hover,
+.nav-main.scrolled .navbar-toggler-custom {
+  color: white;
+}
+
+.nav-main.scrolled,
+.nav-main.expanded {
+  background-color: #64493c; 
+  color: white;
+}
+
+.nav-items {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.nav-items .nav-link {
+  color: white !important; 
+  transition: color 0.3s;
+}
+
+.nav-items .nav-link:hover {
+  color: #ebb892 !important; 
+  border-bottom: 3.5px solid #fff; 
+  font-weight: 700; 
+}
